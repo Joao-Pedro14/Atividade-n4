@@ -1,0 +1,10 @@
+numero = int(input('Digite o seu numero: '))
+cont = 0
+for x in range (2, numero):
+    if numero % x == 0:
+        cont = cont + 1
+        break
+    if cont == 0:
+        print('%d não é primo' %numero)
+else:
+         print('%d  é primo' %numero) 
